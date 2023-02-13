@@ -77,24 +77,14 @@ To save time in this process, the IT team suggested an ML system that detects in
 ********************
 ## Dashboard Design
 ********************
+#### Streamlit was used for the project dashboard. It has a responsive design with a menu located on the left part of the page. These are the following:
 
-1 - A project summary page, showing the project dataset summary and the client's requirements.
+*  Quick Project Summary
+* Cherry Leaves Visualizer
+* Mildew Detection
+* Project Hypothesis
+* ML Performance Metrics
 
-2 - A page listing your findings related to a study to visually differentiate a cherry leaf that is healthy from one that contains powdery mildew
-
-3 - A page containing:
-
-        - A link to download a set of cherry leaf images for live prediction (you may use the Kaggle repository that was provided to you).
-
-        - A User Interface with a file uploader widget. The user should have the capacity to upload multiple images. For each image, it will display the image and a prediction statement, indicating if a cherry leaf is healthy or contains powdery mildew and the probability associated with this statement.
-
-        - A table with the image name and prediction results, and a download button to download the table.
-
-4 - A page indicating your project hypothesis and how you validated it across the project.
-
-5 - A technical page displaying your model performance.
-
-* List all dashboard pages and their content, either blocks of information or widgets, like buttons, checkboxes, images, or any other items, that your dashboard library supports.
 
 
 ********************
@@ -120,7 +110,7 @@ To save time in this process, the IT team suggested an ML system that detects in
 ## Data Analysis and Machine Learning Libraries
 ********************
 
-* [Jupyter notebooks](https://jupyter.org/) was the main source used for running and executing the ML pipelines.
+* [Jupyter notebooks](https://jupyter.org/) the main source  for running and executing the ML pipelines.
 
 * [Streamlit](https://streamlit.io/) is used to host the interactive dashboard.
 
@@ -157,36 +147,27 @@ To save time in this process, the IT team suggested an ML system that detects in
 
 
 ********************
-### Content 
+## Content 
 
 * [Code Institute Malaria Walk Through Project](https://learn.codeinstitute.net/courses/course-v1:code_institute+CI_DA_ML+2021_Q4/courseware/07a3964f7a72407ea3e073542a2955bd/29ae4b4c67ed45a8a97bb9f4dcfa714b/) was heavily used for instructional purposes, and guidance through the development of this project.
+* [Code Institute Streamlit lessons](https://learn.codeinstitute.net/courses/course-v1:code_institute+CI_DA_ML+2021_Q4/courseware/d186ae95191f48e9a2151559c7e6f85d/fc2f9892cfa44eee9cc8bf585c21df88/4?activate_block_id=block-v1%3Acode_institute%2BCI_DA_ML%2B2021_Q4%2Btype%40vertical%2Bblock%407636b337caeb4035bd7b5568404802f6) was used as guidance for the dashboard execution in this project.
 
 * [Mildew Detection](https://github.com/Code-Institute-Solutions/milestone-project-mildew-detection-in-cherry-leaves) was forked to provide the base foundation of this project.
 
-* [Streamlit](https://docs.streamlit.io/library/api-reference/write-magic/st.write) documentation was used for assistance in the writting the app pages
 
-* [Code Institute Streamlit lessons](https://learn.codeinstitute.net/courses/course-v1:code_institute+CI_DA_ML+2021_Q4/courseware/d186ae95191f48e9a2151559c7e6f85d/fc2f9892cfa44eee9cc8bf585c21df88/4?activate_block_id=block-v1%3Acode_institute%2BCI_DA_ML%2B2021_Q4%2Btype%40vertical%2Bblock%407636b337caeb4035bd7b5568404802f6) was used as guidance for the dashboard execution in this project.
+* [Wikipedia](https://en.wikipedia.org/wiki/Powdery_mildew#:~:text=Powdery%20mildew%20is%20a%20fungal,its%20symptoms%20are%20quite%20distinctive.) was used as the resource pertaining to the powdery mildew fungal infection that is at the heart of this project.
 
 * [GyanShashwat1611/WalkthroughProject01](https://github.com/GyanShashwat1611/WalkthroughProject01) github repository was used for code reference and assistance for in the jupyter notebook set up, code and execution; as well as for the app pages design, set up and code
 
 * [valerieoni/mildew-detection](https://github.com/valerieoni/mildew-detection) github repository was used for readme guidance and code reference. 
 
+* [jtm2021/mildewproject](https://github.com/jtm2021/mildewproject) github repository was used for code reference and readme guidance
+
 * [HaimanotA/Instant-Mildew-Detector](https://github.com/HaimanotA/Instant-Mildew-Detector) github repository was used for code reference and readme guidance
 
-* [Wikipedia](https://en.wikipedia.org/wiki/Powdery_mildew#:~:text=Powdery%20mildew%20is%20a%20fungal,its%20symptoms%20are%20quite%20distinctive.) was used as the resource pertaining to the powdery mildew fungal infection that is at the heart of this project.
-
-* The icons in the footer were taken from [Font Awesome](https://fontawesome.com/).
-
-
-********************
-### Dataset / Media
-
-* [Kaggle Cheery Leaves Dataset](https://www.kaggle.com/datasets/codeinstitute/cherry-leaves) was used as the source for the data set and the images for this project
-
-* The dataset contains +4 thousand images taken from the client's crop fields. The images show healthy cherry leaves and cherry leaves that have powdery mildew, a fungal disease that affects many plant species. 
-
+* The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
 
 
 ********************
 ## Acknowledgements
-* I would like to thank my mentor **** for his time, help, expertise and especially for his motivation during the creation and execution of this project.
+* I would like to thank my mentor ofr his help and motivation. I ahve taken inspiration from the walktrough project 1 and created this project.
