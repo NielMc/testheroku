@@ -6,7 +6,7 @@ def page_project_hypothesis_body():
     st.header(" Hypothesis of the Mildew detection in cherry leaves ")
 
     st.info(
-        f"The main hypotheses for this project are as follows:\n\n "
+        f"The main hypothesis for this project are as follows:\n\n "
 
         f" The infected cherry leaves with powdery mildew have white streaks on surface "
         f"    which makes them visually different than of the healthy cherry leaves.\n\n"
